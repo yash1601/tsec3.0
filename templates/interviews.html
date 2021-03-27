@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    {% load static %}
+      <link rel="stylesheet" href="{%static 'css/style.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Job Portal</title>
+    <script src="{%static 'plugin/ckeditor/ckeditor.js' %}"></script>
+    <script src="{%static 'js/script.js' %}"></script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">JobPortal</label>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard" >Dashboard</a></li>
+        <li><a href="/interviews" class="active">Interview</a></li>
+        <li><i class="fas fa-book"></i></li>
+        <li id="myBtn"><i class="fas fa-plus"></i></li>
+        <li id="mycal"><i class="fas fa-calendar"></i></li>
+      </ul>
+    </nav>
+    <div class="container">
+        <br>
+        <br>
+        <h1>Interview Tips</h1>
+        <div class="row">
+            <div class="col-md-12">
+              <div>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/HG68Ymazo18" frameborder="0" allowfullscreen>
+                </iframe>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/mDr1j6LnSqo" frameborder="0" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <h1>How to write Resume?</h1>
+        <div class="row">
+            <div class="col-md-12">
+              <div>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/y8YH0Qbu5h4" frameborder="0" allowfullscreen>
+                </iframe>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/Qv2Pd0ylToY" frameborder="0" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <h1>Improve Communication Skills</h1>
+        <div class="row">
+            <div class="col-md-12">
+              <div>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/srn5jgr9TZo" frameborder="0" allowfullscreen>
+                </iframe>
+                <iframe style="margin:50px" width="420" height="315" src="https://www.youtube.com/embed/hE6I9apUvrk" frameborder="0" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <h1>Search Interview Experiences</h1>
+        <br /><br />
+        <form id="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="search" />
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Search" />
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="videos"></div>
+          </div>
+        </div>
+      </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <textarea name='content' id="textarea1"></textarea>
+    <iframe id="calendar1" src="https://calendar.google.com/calendar/embed?src={{email}}%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+</div>
+  <script>
+var modal = document.getElementById("myModal");
+var textarea1 = document.getElementById("textarea1");
+var calendar1 = document.getElementById("calendar1");
+var btn = document.getElementById("myBtn");
+var cal = document.getElementById("mycal");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+  CKEDITOR.replace('content');
+  calendar1.style.display="none";
+
+}
+cal.onclick = function() {
+  modal.style.display = "block";
+  calendar1.style.display="block";
+  textarea1.style.display="none";
+  var textarea2 = document.getElementById("cke_textarea1");
+  textarea2.style.display="none";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="{%static 'js/script.js' %}"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

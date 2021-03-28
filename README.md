@@ -13,13 +13,13 @@ We bring all resources at single platform with additional functionalities of edi
 PYTHON , Django , HTML , CSS , BOOTSTRAP , GOOGLE-API , WEB-SCRAPING
 
 ## Live Demo and Screenshots
-![Alt Text](link)
+![recording](https://user-images.githubusercontent.com/50968654/112743350-37eb8800-8fb4-11eb-881e-10a6748f93d5.gif)
+<br>
+![recording (1)](https://user-images.githubusercontent.com/50968654/112743346-35892e00-8fb4-11eb-8297-e8cfd5f42da9.gif)
 
 ![articles](https://user-images.githubusercontent.com/50968654/112743340-33bf6a80-8fb4-11eb-87bb-731edc3ad9ed.PNG)
 ![dashboard](https://user-images.githubusercontent.com/50968654/112743344-34f09780-8fb4-11eb-8704-048c5440f03c.PNG)
 ![home](https://user-images.githubusercontent.com/50968654/112743345-35892e00-8fb4-11eb-859f-fff754f069de.png)
-![recording (1)](https://user-images.githubusercontent.com/50968654/112743346-35892e00-8fb4-11eb-8297-e8cfd5f42da9.gif)
-![recording](https://user-images.githubusercontent.com/50968654/112743350-37eb8800-8fb4-11eb-881e-10a6748f93d5.gif)
 ![role questions](https://user-images.githubusercontent.com/50968654/112743351-38841e80-8fb4-11eb-95d6-1024a8134293.PNG)
 ![WhatsApp Image 2021-03-28 at 10 37 08](https://user-images.githubusercontent.com/50968654/112743353-391cb500-8fb4-11eb-8c18-5fcee00a0ee1.jpeg)
 

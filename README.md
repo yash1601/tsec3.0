@@ -13,6 +13,8 @@ We bring all resources at single platform with additional functionalities of edi
 PYTHON , Django , HTML , CSS , BOOTSTRAP , GOOGLE-API , WEB-SCRAPING
 
 ## Live Demo and Screenshots
+![login gif](https://user-images.githubusercontent.com/50968654/112743504-8fd6be80-8fb5-11eb-8069-4deb64cdea64.gif)
+
 ![recording](https://user-images.githubusercontent.com/50968654/112743350-37eb8800-8fb4-11eb-881e-10a6748f93d5.gif)
 ![recording (1)](https://user-images.githubusercontent.com/50968654/112743346-35892e00-8fb4-11eb-8297-e8cfd5f42da9.gif)
 
